@@ -9,7 +9,7 @@ class Program1 {
         System.out.println("Enter the upper limit: ");
         int upper = sc.nextInt();
 
-        System.out.println();
+        System.out.println("All prime numbers from " + lower + " to " + upper + " are: (inclusive of both)");
 
         for (int i = lower; i <= upper; i++) {
             boolean isPrime = Prime(i);
